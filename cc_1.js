@@ -19,6 +19,8 @@ let productsSold=5000;//Number-Amount of products sold.
 let revenue=(productPrice*productsSold);//Number-dollar amount to be added to account.
 let profit=(revenue-costs);//Number-dollar amount to be added to account
 let newAccountBalance=(accountBalance+profit);//Number-new account balance.
+console.log("Account Balance:", accountBalance)
+console.log("Updated Account Balance", newAccountBalance)
 
 
 
