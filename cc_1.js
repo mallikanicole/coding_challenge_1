@@ -15,11 +15,14 @@ let accountBalance=500000;//Number-dollar amount in account
 const productCost= "5"
 let supplyAmount=6000;//Number-amount of supplies purchased
 let costs=(productCost*supplyAmount);//Number-dollar amount to be subtracted from account.
-let productsSold=5000;//Number-Amount of products sold.
-let revenue=(productPrice*productsSold);//Number-dollar amount to be added to account.
+let revenue=100000;//Number-dollar amount of revenue.
+let productsSold=(revenue/productPrice);//Number-amount of products sold.
 let profit=(revenue-costs);//Number-dollar amount to be added to account
 let newAccountBalance=(accountBalance+profit);//Number-new account balance.
 console.log("Account Balance:", accountBalance)
+console.log("Costs:", costs)
+console.log("Revenue:", revenue)
+console.log("Profit:", profit)
 console.log("Updated Account Balance", newAccountBalance)
 
 
