@@ -27,8 +27,12 @@ let customerName= "Valuable Client";//String-name of customer
 console.log("Welcome", customerName, ":)")
 console.log("Thank you for your interest in our product!")
 let isLoggedIn= true;//Boolean- True if customer is logged in.
+let hasCustomerAccess= true;//Boolean-True if user has customer access.
+let hasCompleteAccess= false;//Boolean-True if user has complete access.
 console.log("User Logged In:", isLoggedIn)
-
+console.log("User is Logged in and has Full Access:", isLoggedIn&&hasCompleteAccess)
+console.log("User has Customer Access:", isLoggedIn||hasCustomerAccess)
+console.log("User has Full Access:" (!hasCompleteAccess))
 
 
 
