@@ -24,6 +24,9 @@ console.log("Costs:", costs)
 console.log("Revenue:", revenue)
 console.log("Profit:", profit)
 console.log("Updated Account Balance", newAccountBalance)
+let customerName= "Valuable Client";//String-name of customer
+console.log("Welcome", customerName, "Thank you for choosing our product!")
+
 
 
 
