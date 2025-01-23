@@ -27,7 +27,8 @@ console.log("Updated Account Balance", newAccountBalance)
 let customerName= "Valuable Client";//String-name of customer
 console.log("Welcome", customerName, ":)")
 console.log("Thank you for your interest in our product!")
-
+let isLoggedIn= true;//Boolean- True if customer is logged in.
+console.log("User Logged In:", isLoggedIn)
 
 
 
