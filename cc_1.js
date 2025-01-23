@@ -4,7 +4,6 @@ var isActive= true;//Boolean-True if employee is currently active.
 console.log("Employee Name:", employeeName,typeof employeeName)
 console.log("Employee ID:", employeeID,typeof employeeID)
 console.log("Active:", isActive,typeof isActive)
-console.log(employeeName,employeeID,isActive,)
 let productName= "ProductA";//String-Name of Product.
 const productPrice= "20";//Number-Price assigned to product.
 var isAvailable= true;//Boolean- True if product is currently available.
